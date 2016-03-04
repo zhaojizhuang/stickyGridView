@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+   
+    >
+
+    <!-- <com.example.stickyheadergridview.MyImageView -->
+         <ImageView
+             android:src="@drawable/ic_launcher"
+        android:id="@+id/grid_item"
+        android:scaleType="fitXY"
+        android:layout_width="fill_parent"
+        android:layout_height="100dip" />
+
+         <TextView
+             android:id="@+id/textView"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_below="@+id/grid_item"
+             android:layout_centerHorizontal="true"
+             android:text="Medium Text"
+             android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
